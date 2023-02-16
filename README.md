@@ -2,8 +2,6 @@
 
 This repository contains notebooks and SQL scripts that demonstrate how to use Microsoft SQL Spark Connector to perform bulk import operations from Azure Databricks to Azure SQL Database or SQL Server. The notebooks cover various aspects such as installation, configuration, performance tuning, deadlock handling, and table lock option. The SQL scripts create the tables and indexes used in the notebooks.
 
-The notebooks are used in this blog post [Building large scale data ingestion solutions for Azure SQL using Azure databricks](https://ankitbko.github.io/blog/2020/09/bulk-import-using-sql-spark-connector-p1/)
-
 ## Notebook Samples
 
 The notebooks in this repository are:
