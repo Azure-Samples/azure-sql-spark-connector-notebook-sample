@@ -1,4 +1,4 @@
-# Azure SQL Spark Connector Playbook Sample
+# Azure SQL Spark Connector Notebook Sample
 
 This repository contains notebooks and SQL scripts that demonstrate how to use Microsoft SQL Spark Connector to perform bulk import operations from Azure Databricks to Azure SQL Database or SQL Server. The notebooks cover various aspects such as installation, configuration, performance tuning, deadlock handling, and table lock option. The SQL scripts create the tables and indexes used in the notebooks.
 
