@@ -1,57 +1,19 @@
-# Project Name
+# Azure SQL Spark Connector Playbook Sample
 
-(short, 1-3 sentenced, description of the project)
+This repository contains notebooks and SQL scripts that demonstrate how to use Microsoft SQL Spark Connector to perform bulk import operations from Azure Databricks to Azure SQL Database or SQL Server. The notebooks cover various aspects such as installation, configuration, performance tuning, deadlock handling, and table lock option. The SQL scripts create the tables and indexes used in the notebooks.
 
-## Features
+The notebooks are used in this blog post [Building large scale data ingestion solutions for Azure SQL using Azure databricks](https://ankitbko.github.io/blog/2020/09/bulk-import-using-sql-spark-connector-p1/)
 
-This project framework provides the following features:
+## Notebook Samples
 
-* Feature 1
-* Feature 2
-* ...
+The notebooks in this repository are:
 
-## Getting Started
-
-### Prerequisites
-
-(ideally very short, if any)
-
-- OS
-- Library version
-- ...
-
-### Installation
-
-(ideally very short)
-
-- npm install [package name]
-- mvn install
-- ...
-
-### Quickstart
-(Add steps to get up and running quickly)
-
-1. git clone [repository clone url]
-2. cd [repository name]
-3. ...
+* 00-export-parquet-sql.ipynb: This notebook shows how to export data from Azure SQL Database or SQL Server to Parquet files using Microsoft SQL Spark Connector.
+* 2020-09-01-bulk-import-using-sql-spark-connector-p1.ipynb: This notebook shows how to perform bulk import using Microsoft SQL Spark Connector and what are the benefits and challenges of this approach.
+* 2020-09-03-bulk-import-using-sql-spark-connector-p2.ipynb: This notebook shows how to handle deadlocks and page locks that occur when performing concurrent bulk imports on the same table using Microsoft SQL Spark Connector.
+* 2020-09-08-bulk-import-using-sql-spark-connector-p3.ipynb: This notebook shows how to optimize the bulk import performance by tuning the partition size, batch size, and table lock option using Microsoft SQL Spark Connector.
 
 
-## Demo
+# License
 
-A demo app is included to show how to use the project.
-
-To run the demo, follow these steps:
-
-(Add steps to start up the demo)
-
-1.
-2.
-3.
-
-## Resources
-
-(Any additional resources or related projects)
-
-- Link to supporting information
-- Link to similar sample
-- ...
+This project is licensed under the MIT License - see the LICENSE file for details.
