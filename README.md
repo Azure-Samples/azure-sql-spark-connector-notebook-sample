@@ -22,7 +22,7 @@ The following Azure Services are required to run this sample.
 ## Running the Notebooks
 - Clone or download this repository to your local machine.
 - Install Microsoft SQL Spark Connector on your Azure Databricks cluster. You can follow the instructions here: [https://docs.microsoft.com/en-us/sql/connect/spark/connector?view=sql-server-ver15](https://docs.microsoft.com/en-us/sql/connect/spark/connector?view=sql-server-ver15)
-- Create a database and tables on Azure SQL Database or SQL Server using the [Create Table](https://github.com/Azure-Samples/azure-sql-spark-connector-notebook-sample/blob/main/sql/create_table.sql) SQL script. Use the other scripts in `sql` folder to create indexes as you go through the notebooks.
+- Create a database and tables on Azure SQL Database or SQL Server using the [Create Table](https://github.com/Azure-Samples/azure-sql-spark-connector-notebook-sample/blob/main/sql/create_table.sql) SQL script. Use the other scripts in `sql` folder to create indexes as you go through the notebooks. Insert dummy data into the tables. Alternatively you can use [TPC-DS](https://www.tpc.org/tpcds/) to generate data.
 - Upload the notebooks from the notebooks folder of this repository to your Azure Databricks workspace.
 - Open each notebook and follow the instructions inside. You will need to provide your own connection string and credentials to connect to Azure SQL Database or SQL Server.
 
