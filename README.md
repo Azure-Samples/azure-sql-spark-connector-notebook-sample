@@ -12,6 +12,20 @@ The notebooks in this repository are:
 * 2020-09-08-bulk-import-using-sql-spark-connector-p3.ipynb: This notebook shows how to optimize the bulk import performance by tuning the partition size, batch size, and table lock option using Microsoft SQL Spark Connector.
 
 
+## Prerequisite
+The following Azure Services are required to run this sample.
+- Azure Datalake
+- Azure Keyvault
+- Azure Databricks
+- Azure SQL Server
+
+## Running the Notebooks
+- Clone or download this repository to your local machine.
+- Install Microsoft SQL Spark Connector on your Azure Databricks cluster. You can follow the instructions here: [https://docs.microsoft.com/en-us/sql/connect/spark/connector?view=sql-server-ver15](https://docs.microsoft.com/en-us/sql/connect/spark/connector?view=sql-server-ver15)
+- Create a database and tables on Azure SQL Database or SQL Server using the [Create Table](https://github.com/Azure-Samples/azure-sql-spark-connector-notebook-sample/blob/main/sql/create_table.sql) SQL script. Use the other scripts in `sql` folder to create indexes as you go through the notebooks.
+- Upload the notebooks from the notebooks folder of this repository to your Azure Databricks workspace.
+- Open each notebook and follow the instructions inside. You will need to provide your own connection string and credentials to connect to Azure SQL Database or SQL Server.
+
 # License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
